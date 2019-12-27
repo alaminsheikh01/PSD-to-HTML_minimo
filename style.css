@@ -187,6 +187,7 @@ header{
 button{
 	margin-top: 11%;
     margin-bottom: 11%;
+	border-radius:5px;
 }
 button:hover{
 	background-color:white;}
