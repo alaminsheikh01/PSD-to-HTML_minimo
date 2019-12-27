@@ -61,9 +61,20 @@ header{
 	padding:0 60px;
 	display: block;
 }
-.menu ul li a:hover{
+.menu ul li a::after {
+    content: '';
+    display: block;
+    width:0;
+    height: 1px;
+    background: #000;
 	color :#000000;
 }
+
+.menu ul li a:hover::after {
+    width: 100%;
+
+}
+
 .menu ul li:last-child a {
 	padding-right: 0;
 }
